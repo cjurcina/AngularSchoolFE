@@ -1,0 +1,34 @@
+<!-- Code for navbar and routing modified from https://angular.io/tutorial/toh-pt5-->
+<header>
+    <!-- Toolbar -->
+    <div class="toolbar" role="banner">
+        <img
+        width="200"
+        alt="Best Buy Logo"
+        src="assets/img/best-buy-logo.PNG" 
+        /><!-- src will be best buy logo image-->
+        <span class="spacer"></span>
+
+        <nav class="navbar navbar-light">
+            <div class="container">
+                 
+                <a mat-button 
+                routerLink="/home"
+                routerLinkActive="active">Home</a>
+                      
+                <a mat-button
+                routerLink="/products"
+                routerLinkActive="active">Products</a>
+                       
+                <a mat-button
+                routerLink="/register"
+                routerLinkActive="active">Register</a>
+                       
+                <a mat-button
+                routerLink="/login"
+                routerLinkActive="active">Log In</a>
+            </div>
+        </nav>
+    </div>
+
+</header>
